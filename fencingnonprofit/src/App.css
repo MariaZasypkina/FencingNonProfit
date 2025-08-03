@@ -1,0 +1,87 @@
+:root {
+  --color-primary: #003366;     /* глубокий синий, база */
+  --color-accent: #B31B1B;      /* бордово-красный */
+  --color-highlight: #FDB813;  /* золотой акцент */
+  --color-lightblue: #6CB4EE;  /* небесно-голубой */
+  --color-white: #ffffff;
+  --color-bg: #f9f9f9;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+header {
+  background-color: var(--color-primary);
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--color-white);
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--color-highlight);
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.athlete-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.athlete-card {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.athlete-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.athlete-card h3 {
+  margin: 0.5rem 0;
+}
+
+.athlete-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.athlete-card a:hover {
+  color: var(--color-highlight);
+}
+
+section img {
+  max-width: 300px;
+  display: block;
+  margin-bottom: 1rem;
+}
