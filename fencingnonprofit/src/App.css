@@ -1,3 +1,5 @@
+
+
 :root {
   --color-primary: #003366;     /* глубокий синий, база */
   --color-accent: #B31B1B;      /* бордово-красный */
@@ -45,8 +47,11 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 
 
 .athlete-card {
@@ -93,3 +98,26 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+.banner {
+  width: 100%;
+  height: 40vh;
+  background-image: url('/images/banner1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.banner-heading {
+  color: rgba(255, 255, 255, 0.4); /* почти белый, но немного прозрачный */
+  font-size: 5rem; /* сильно крупнее */
+  font-weight: 800; /* extra-bold */
+  text-align: center;
+  z-index: 20;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6); /* для контраста */
+}
+
