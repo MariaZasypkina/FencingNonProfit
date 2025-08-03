@@ -85,3 +85,11 @@ section img {
   display: block;
   margin-bottom: 1rem;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

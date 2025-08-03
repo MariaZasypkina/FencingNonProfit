@@ -1,7 +1,7 @@
 export const athletes = [
   {
-    id: "sofia-vinogorova",
-    name: "Sofia Vinogorova",
+    id: "sofia-vin",
+    name: "Sofia Vin",
     weapon: "Sabre",
     achievements: ["2025 USA Champion", "Gold Medal at Denver RYC"],
     photo: "/images/sofia.jpg",
@@ -21,9 +21,9 @@ export const athletes = [
   {
     id: "anna-smith",
     name: "Anna Smith",
-    weapon: "Sabre",
+    weapon: "Épée",
     achievements: ["Bronze 2025 USA Championship", "5th Place at Denver RYC"],
-    photo: "/images/john.jpg",
+    photo: "/images/anna.jpg",
     gofundme: "https://gofundme.com/anna-fencing",
   },
   {
@@ -37,22 +37,22 @@ export const athletes = [
     gofundme: "https://gofundme.com/pam-fencing",
   },
     {
-    id: "anna-smith",
-    name: "Anna Smith",
+    id: "ann-smi",
+    name: "Ann Smi",
     weapon: "Sabre",
     achievements: ["Bronze 2025 USA Championship", "5th Place at Denver RYC"],
-    photo: "/images/john.jpg",
+    photo: "/images/ann.jpg",
     gofundme: "https://gofundme.com/anna-fencing",
   },
     {
-    id: "john-doe",
-    name: "John Doe",
-    weapon: "Sabre",
+    id: "jonny-don",
+    name: "Jonny Don",
+    weapon: "Foil",
     achievements: [
       "Silver 2025 USA Championship",
       "Silver Medal at Denver RYC",
     ],
-    photo: "/images/john.jpg",
+    photo: "/images/jonny.jpg",
     gofundme: "https://gofundme.com/john-fencing",
   },
 ];
