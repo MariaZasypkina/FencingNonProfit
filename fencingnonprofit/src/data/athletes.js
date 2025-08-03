@@ -55,4 +55,63 @@ export const athletes = [
     photo: "/images/jonny.jpg",
     gofundme: "https://gofundme.com/john-fencing",
   },
+  {
+    id: "john-doe",
+    name: "John Doe",
+    weapon: "Sabre",
+    achievements: [
+      "Silver 2025 USA Championship",
+      "Silver Medal at Denver RYC",
+    ],
+    photo: "/images/john.jpg",
+    gofundme: "https://gofundme.com/john-fencing",
+  },
+  {
+    id: "anna-smith",
+    name: "Anna Smith",
+    weapon: "Épée",
+    achievements: ["Bronze 2025 USA Championship", "5th Place at Denver RYC"],
+    photo: "/images/anna.jpg",
+    gofundme: "https://gofundme.com/anna-fencing",
+  },
+  {
+    id: "pam-doe",
+    name: "Pam Doe",
+    weapon: "Sabre",
+    achievements: [
+      "4th place 2025 USA Championship",
+    ],
+    photo: "/images/pam.jpg",
+    gofundme: "https://gofundme.com/pam-fencing",
+  },
+    {
+    id: "ann-smi",
+    name: "Ann Smi",
+    weapon: "Sabre",
+    achievements: ["Bronze 2025 USA Championship", "5th Place at Denver RYC"],
+    photo: "/images/ann.jpg",
+    gofundme: "https://gofundme.com/anna-fencing",
+  },
+    {
+    id: "jonny-don",
+    name: "Jonny Don",
+    weapon: "Foil",
+    achievements: [
+      "Silver 2025 USA Championship",
+      "Silver Medal at Denver RYC",
+    ],
+    photo: "/images/jonny.jpg",
+    gofundme: "https://gofundme.com/john-fencing",
+  },
+  {
+    id: "john-doe",
+    name: "John Doe",
+    weapon: "Sabre",
+    achievements: [
+      "Silver 2025 USA Championship",
+      "Silver Medal at Denver RYC",
+    ],
+    photo: "/images/john.jpg",
+    gofundme: "https://gofundme.com/john-fencing",
+  },
 ];
